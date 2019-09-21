@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.cc_view_alerts_today
+  module:
+    - views
+  theme:
+    - cadets_canada_theme
+id: block_cc_alerts_today
+theme: cadets_canada_theme
+region: alerts
+weight: 0
+provider: null
+plugin: 'views_block:cc_view_alerts_today-block_1'
+settings:
+  id: 'views_block:cc_view_alerts_today-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

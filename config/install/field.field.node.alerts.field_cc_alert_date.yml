@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cc_alert_date
+    - node.type.alerts
+  module:
+    - datetime
+id: node.alerts.field_cc_alert_date
+field_name: field_cc_alert_date
+entity_type: node
+bundle: alerts
+label: 'Alert date'
+description: 'Enter to date of the alert, this can be in the past, present or future.'
+required: true
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

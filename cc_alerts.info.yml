@@ -1,0 +1,15 @@
+name: Alerts
+description: 'Alerts for your unit, notifications will be sent out once the content is published.'
+type: module
+core: 8.x
+dependencies:
+  - block
+  - datetime
+  - entity_browser_block_layout
+  - field
+  - menu_ui
+  - node
+  - options
+  - path
+  - user
+  - views

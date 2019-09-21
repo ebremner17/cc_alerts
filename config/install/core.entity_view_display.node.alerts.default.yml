@@ -1,0 +1,42 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.alerts.field_cc_alert_date
+    - field.field.node.alerts.field_cc_alert_text
+    - field.field.node.alerts.field_cc_alert_type
+    - node.type.alerts
+  module:
+    - datetime
+    - options
+    - user
+id: node.alerts.default
+targetEntityType: node
+bundle: alerts
+mode: default
+content:
+  field_cc_alert_date:
+    weight: 0
+    label: hidden
+    settings:
+      timezone_override: ''
+      format_type: cc_short_month_date_only
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_cc_alert_text:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_cc_alert_type:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+hidden:
+  links: true

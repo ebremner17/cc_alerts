@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cc_alert_text
+    - node.type.alerts
+id: node.alerts.field_cc_alert_text
+field_name: field_cc_alert_text
+entity_type: node
+bundle: alerts
+label: 'Alert text'
+description: 'Enter to text to for the alert.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long
