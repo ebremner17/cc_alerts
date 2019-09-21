@@ -13,3 +13,4 @@ dependencies:
   - path
   - user
   - views
+  - cc_site_controller
