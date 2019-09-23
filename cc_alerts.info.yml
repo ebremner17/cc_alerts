@@ -12,6 +12,7 @@ dependencies:
   - node
   - options
   - path
+  - pathauto
   - user
   - views
 core_incompatible: false

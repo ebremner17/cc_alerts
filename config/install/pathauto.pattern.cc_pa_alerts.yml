@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: cc_pa_alerts
+label: Alerts
+type: 'canonical_entities:node'
+pattern: 'alerts/[node:title]'
+selection_criteria:
+  e8f8c5b2-ca8f-4907-8ed6-08ae53f39951:
+    id: node_type
+    bundles:
+      alerts: alerts
+    negate: false
+    context_mapping:
+      node: node
+    uuid: e8f8c5b2-ca8f-4907-8ed6-08ae53f39951
+selection_logic: and
+weight: -5
+relationships: {  }
