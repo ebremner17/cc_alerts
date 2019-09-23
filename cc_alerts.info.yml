@@ -4,6 +4,7 @@ type: module
 core: 8.x
 dependencies:
   - block
+  - cc_site_controller
   - datetime
   - entity_browser_block_layout
   - field
@@ -13,4 +14,4 @@ dependencies:
   - path
   - user
   - views
-  - cc_site_controller
+core_incompatible: false

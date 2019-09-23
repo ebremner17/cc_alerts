@@ -3,6 +3,9 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.alerts.field_cc_alert_date
+    - field.field.node.alerts.field_cc_alert_text
+    - field.field.node.alerts.field_cc_alert_type
     - node.type.alerts
   module:
     - user
@@ -16,4 +19,7 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  field_cc_alert_date: true
+  field_cc_alert_text: true
+  field_cc_alert_type: true
