@@ -7,7 +7,7 @@ use Drupal\node\NodeInterface;
  *
  * Sends emails to users when changed to published.
  */
-function ws_alert_node_insert(NodeInterface $node) {
+function cc_alert_node_insert(NodeInterface $node) {
 
   if ($node->type->getValue()[0]['target_id'] == 'alerts') {
     $params['type_of_alert'] = $node->field_cc_alert_type->getValue()[0]['value'];
