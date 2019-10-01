@@ -321,7 +321,7 @@ display:
             min: ''
             max: ''
             value: today
-            type: offset
+            type: date
           group: 1
           exposed: false
           expose:
